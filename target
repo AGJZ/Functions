@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Hey, ¿How are you?
+
+function target(){
+	mkdir $1 && mkdir $1/{nmap,exploits,content,others}
+}
+
+target $1
+
